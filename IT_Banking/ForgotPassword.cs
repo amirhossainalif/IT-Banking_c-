@@ -54,8 +54,8 @@ namespace IT_Banking
                 MailMessage mm = new MailMessage();
                 to = (textBox_email.Text).ToString();
 
-                string from = "itcsbd2022@gmail.com";
-                string pass = "bvtjhwnauhuwusjp";
+                string from = "Enter your gmail id which will send mail";
+                string pass = "Enter your APP Pass which was given by gmail";
                 string messageBody = "Your OTP code is: " + randcode;
 
                 mm.To.Add(to);
